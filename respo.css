@@ -1,0 +1,87 @@
+@media (max-width: 768px) {
+    .logo {
+        font-size: 1.5rem;
+    }
+    .menu-button {
+        display: block;
+    }
+    nav {
+        display: none;
+        background-color: aquamarine;
+        width: 100%;
+        top: 46px;
+        position: absolute;
+        border-radius: 10px;
+    }
+    .show-menu nav{
+        display: block;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul li{
+        width: 100%;
+        text-align: center;
+        padding: 1rem ;
+    
+}
+.header-bottom-side{
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+.cols-3{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cols-4{
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+.product{
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+}
+.product img{
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+}
+.product-name{
+    overflow: hidden;
+    font-size: 16px;
+}
+section .header-bottom-side{
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 4rem;
+
+}
+.comentarios{
+    flex-direction: column;
+    padding: 2rem;
+}
+.comment{
+    flex-basis: 100%;
+    margin-bottom: 2rem;
+}
+.comment p:first-child {
+    font-size: 20pt;
+}
+.comment p {
+    font-size: 20pt;
+}
+
+}
